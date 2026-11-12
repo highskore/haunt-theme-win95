@@ -1,8 +1,21 @@
+<div align="center">
+
+<img src="docs/icon.png" width="96" alt="">
+
 # Windows 95
 
-A Haunt theme of grey bevels. The title bar is a navy caption with a ghost icon and minimise, maximise and close boxes, and a row of Haunt's menus sits under it. The sidebar's groups sit in etched group boxes. Only the selected tab's name is highlighted, progress shows as blocks, and the agent icons are pixel art. The terminal is a black DOS box in VT323. ⌘K opens a "Go To" dialog with OK and Cancel.
+**A Haunt theme of grey bevels, a navy caption and a DOS-box terminal.**
 
-![Windows 95](screenshot.png)
+[![Haunt plugin](https://img.shields.io/badge/Haunt-plugin-D97757)](https://github.com/highskore/haunt-hackathon)
+![Plugin API 0.5](https://img.shields.io/badge/plugin%20API-0.5-111)
+![Theme](https://img.shields.io/badge/kind-theme-6b7280)
+[![License: MIT](https://img.shields.io/badge/license-MIT-6b7280)](LICENSE)
+
+<img src="docs/screenshot.png" width="720" alt="Haunt in Windows 95: a navy caption with a menu row, group boxes in the sidebar and a Go To dialog">
+
+</div>
+
+A Haunt theme of grey bevels. The title bar is a navy caption with a ghost icon and minimise, maximise and close boxes, and a row of Haunt's menus sits under it. The sidebar's groups sit in etched group boxes. Only the selected tab's name is highlighted, progress shows as blocks, and the agent icons are pixel art. The terminal is a black DOS box in VT323. ⌘K opens a "Go To" dialog with OK and Cancel.
 
 ## Install and switch
 

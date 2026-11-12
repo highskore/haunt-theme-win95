@@ -1,0 +1,16 @@
+[plugin]
+id = "dev.haunt.theme-win95"
+name = "Windows 95"
+description = "Grey bevels, a navy caption, group boxes and a DOS-box terminal."
+version = "0.1.0"
+api = "0.5"
+license = "MIT"
+
+[capabilities]
+theme = true
+
+[contributes.theme]
+id = "win95"
+file = "theme.toml"
+fonts = ["fonts/VT323-Regular.ttf"]
+licenses = ["OFL-VT323.txt"]

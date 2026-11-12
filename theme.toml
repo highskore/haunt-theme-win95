@@ -1,0 +1,132 @@
+name = "Windows 95"
+appearance = "light"
+
+[color]
+window.bg = "#c0c0c0"
+window.border = "#000000"
+sidebar.bg = "#c0c0c0"
+hairline = "#808080"
+row.selected = "#c0c0c0"
+text.primary = "#000000"
+text.meta = "#404040"
+text.sub = "#000000"
+text.label = "#000000"
+text.terminal = "#c0c0c0"
+needs = "#800000"
+lights = "#000000"
+bar.track = "#c0c0c0"
+bar.fill = "#000080"
+icon.bg = "#c0c0c0"
+icon.fg = "#000000"
+palette.bg = "#c0c0c0"
+palette.border = "#000000"
+palette.ink = "#000000"
+palette.mute = "#404040"
+palette.rule = "#808080"
+palette.entry.rule = "#00000000"
+palette.sel = "#000080"
+palette.chip.fg = "#ffffff"
+
+[size]
+sidebar.w = 252
+titlebar.h = 20
+titlebar.padx = 3
+label.font = 11
+label.pad = [10, 11, 0]
+row.pad = [3, 4]
+row.gap = [1, 6]
+row.name = 11
+row.meta = 11
+row.right = 11
+sub.font = 11
+icon.size = 16
+bar.h = 14
+bar.mt = 3
+pane.font = 15.5
+pane.line = 1.22
+pane.pad = [6, 8]
+palette.radius = 0
+palette.font = 11
+palette.small.font = 11
+palette.input.font = 11
+palette.list.pad = [3, 10]
+palette.input.pad = [3.5, 12]
+palette.input.gap = 10
+palette.entry.pad = [1.75, 3]
+palette.foot.pad = [8, 10]
+
+[font]
+ui = "Tahoma"
+mono.family = "VT323"
+
+[app]
+title.fg = "#000000"
+title.meta = "#404040"
+title.font = 11
+sidebar.padtop = 10
+titlebar.fill = ["#000080", "#1084d0"]
+row.select.ink = "#ffffff"
+row.select.fill = "#000080"
+window.pad = 3
+pane.gap = 4
+group.pad = 4
+group.gap = 18
+palette.field = "#ffffff"
+palette.pill.inset = 15
+palette.row.inset = 6
+palette.offset.x = 12
+palette.pill.radius = 0
+palette.pill.highlight = "#00000000"
+palette.pill.ink = "#ffffff"
+palette.pill.mute = "#ffffff"
+
+[layout]
+palette_position = "bottom-right"
+palette_width = 336
+palette_rows = "single-line"
+title_format = "{app} - {tab}"
+
+[effects]
+needs.weight = "bold"
+window.square = true
+window.frame = "bevel"
+pane.frame = "bevel"
+titlebar.style = "caption"
+titlebar.icon = true
+titlebar.menu = true
+lights.shape = "boxes"
+label.rule = "groupbox"
+label.case = "sentence"
+label.weight = "regular"
+row.select = "name"
+row.inset = 8
+icon.style = "pixel"
+progress.style = "segments"
+bar.done = false
+sidebar.footer = false
+palette.frame = "dialog"
+palette.inset = 55
+palette.header = true
+palette.font = "ui"
+palette.icons = true
+palette.selection = "pill"
+palette.foot = false
+palette.scrim = false
+palette.keys = "plain"
+palette.input.icon = true
+palette.tab.sub = "task"
+
+[strings]
+palette.header = "Go To"
+palette.message = "Type the name of a tab, a command or a theme."
+palette.input.glyph = "Open:"
+row.sub.prefix = "└ "
+
+[ghostty]
+background = "#000000"
+foreground = "#c0c0c0"
+cursor-color = "#c0c0c0"
+selection-background = "#0000aa"
+font-family = "VT323"
+font-size = 15.5
+palette = ["0=#000000", "1=#aa0000", "2=#00aa00", "3=#aa5500", "4=#0000aa", "5=#aa00aa", "6=#00aaaa", "7=#aaaaaa", "8=#555555", "9=#ff5555", "10=#55ff55", "11=#ffff55", "12=#5555ff", "13=#ff55ff", "14=#55ffff", "15=#ffffff"]
